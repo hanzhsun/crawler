@@ -19,10 +19,9 @@ class TestThread(threading.Thread):
 			r = requests.get("http://icanhazip.com/", timeout=10, proxies=proxy)
 			p = r.text.strip()
 			if p==ip.split(':')[0]:
-				print(ip+"T")
 				return True
 			else:
-				print(p+"F")
+				print(ip+"F")
 				return False
 		except:
 			return False

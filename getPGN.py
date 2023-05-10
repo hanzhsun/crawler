@@ -5,7 +5,7 @@ import random
 from time import sleep
 
 e = "37th Rilton Cup"
-d = "./37thRilton/" 
+d = "./37/" 
 
 def getUA():
 	first = random.randint(55, 76)
@@ -30,9 +30,9 @@ def readList(file):
 def download(i,g,proxy):
 	url = "http://old.chesstempo.com/requests/download_game_pgn.php?gameids="+g
 	name = d+str(i)+"_"+g+".pgn"
-	s = requests.Session()
-	adapter = requests.adapters.HTTPAdapter(max_retries=5)
-	s.mount('http://', adapter)
+	#s = requests.Session()
+	#adapter = requests.adapters.HTTPAdapter(max_retries=5)
+	#s.mount('http://', adapter)
 	flag = 0
 	while flag == 0:
 		headers = {
@@ -43,25 +43,33 @@ def download(i,g,proxy):
 			#'https': 'https://'+p,
 			'http': 'http://'+p
     	}
-		print(p)
+		#r = s.get(url,headers=headers,proxies=proxies)
+		print(url)
 		sleep(random.uniform(0.5, 1))
-		r = s.get(url,headers=headers,proxies=proxies)
+		r = requests.get(url,headers=headers,proxies=proxies)
 		if r.status_code == 200:
-			if r.content != b'':
+			if r.content != b'' and not(r.content.startswith('<'.encode())):
 				with open(name,"wb") as pgn:
 					pgn.write(r.content)
 					pgn.close()
 				flag = 1
+				with open("done.txt","a") as f:
+					f.write(str(i)+"\n")
+					f.close()
 			else:
 				print(i, g, "F!")
 		else:
 			print(i, g, r.status_code)
-	s.close()
+	#s.close()
 
-def getPGN(gid,p):
+def getPGN(gid,p,done):
 	i = 0
+	print(str(len(done))+"/"+str(len(gid)))
 	threads = []
 	for g in gid:
+		if str(i) in done:
+			print(str(i)+"done")
+			continue
 		t = threading.Thread(target=download, args=(i,g,p))
 		threads.append(t)
 		i += 1
@@ -82,7 +90,6 @@ def getL(p):
 	headers = {
 		"User-Agent": getUA()
 	}
-	print(headers)
 	print(p)
 	proxies = {
 		#'https': 'https://'+p,
@@ -106,7 +113,6 @@ def getL(p):
 			s.close()	
 			return
 		print(r.status_code)
-		print(r.text)
 		return
 	except RequestException as err:
 		print(err)
@@ -117,9 +123,12 @@ def getL(p):
 if __name__ == '__main__':
 	p = "checked.txt"
 	proxy = readList(p)
-	#getL(random.choice(proxy_list))
-	l = "gid.txt"
+	#getL(random.choice(proxy))
+	#'''
+	done = readList("done.txt")
+	l = "tgid.txt"
 	gid = readList(l)
-	getPGN(gid,proxy)
+	getPGN(gid,proxy,done)
+	#'''
 	print("Finish")
 		
