@@ -2,10 +2,11 @@ import requests
 from requests.exceptions import RequestException
 import threading
 import random
+import json
 from time import sleep
 
-e = "37th Rilton Cup"
-d = "./37/" 
+e = "Balatonbereny open"
+d = "./bala/" 
 
 def getUA():
 	first = random.randint(55, 76)
@@ -27,56 +28,30 @@ def readList(file):
 	f.close()
 	return l
 
-def download(i,g,proxy):
-	url = "http://old.chesstempo.com/requests/download_game_pgn.php?gameids="+g
-	name = d+str(i)+"_"+g+".pgn"
-	#s = requests.Session()
-	#adapter = requests.adapters.HTTPAdapter(max_retries=5)
-	#s.mount('http://', adapter)
-	flag = 0
-	while flag == 0:
-		headers = {
-        	"User-Agent": getUA(),
-    	}
-		p = random.choice(proxy)
-		proxies = {
-			#'https': 'https://'+p,
-			'http': 'http://'+p
-    	}
-		#r = s.get(url,headers=headers,proxies=proxies)
-		print(url)
-		sleep(random.uniform(0.5, 1))
-		r = requests.get(url,headers=headers,proxies=proxies)
-		if r.status_code == 200:
-			if r.content != b'' and not(r.content.startswith('<'.encode())):
-				with open(name,"wb") as pgn:
-					pgn.write(r.content)
-					pgn.close()
-				flag = 1
-				with open("done.txt","a") as f:
-					f.write(str(i)+"\n")
-					f.close()
-			else:
-				print(i, g, "F!")
-		else:
-			print(i, g, r.status_code)
-	#s.close()
-
-def getPGN(gid,p,done):
-	i = 0
-	print(str(len(done))+"/"+str(len(gid)))
-	threads = []
-	for g in gid:
-		if str(i) in done:
-			print(str(i)+"done")
-			continue
-		t = threading.Thread(target=download, args=(i,g,p))
-		threads.append(t)
-		i += 1
-	for task in threads:
-		task.start()
-	for task in threads:
-		task.join()
+def parsePGN(i,g):
+	print(i)
+	match g['result']:
+		case 'd':
+			r = "1/2-1/2"
+		case 'w':
+			r = "1-0"
+		case other:
+			r = "0-1"
+	pgn = "[Event \""+g['event']+"\"]\n[Site \""
+	pgn += g['site']+"\"]\n[Round \""
+	#pgn += g['round']+"\"]\n[Date \""
+	pgn += i+"\"]\n[Date \"" # for tornelo website
+	pgn += g['date']+"\"]\n[White \""
+	pgn += g['white']+"\"]\n[Black \""
+	pgn += g['black']+"\"]\n[WhiteElo \""
+	pgn += str(g['elowhite'])+"\"]\n[BlackElo \""
+	pgn += str(g['eloblack'])+"\"]\n[Result \""
+	pgn += r+"\"]\n\n"
+	pgn += " ".join(g['moves_san'])
+	pgn += "  "+r+"\n"
+	with open(d+i+"_"+str(g['game_id'])+".pgn","w") as f:
+		f.write(pgn)
+	f.close()
 
 def getL(p):
 	url = "http://old.chesstempo.com/requests/gameslist.php?" #https --> http
@@ -84,6 +59,7 @@ def getL(p):
 		'startIndex': 0,
 		'results': 500,
 		'currentFen': "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+		#'yearMax': 1990,
 		'eventInput': e,
 		'subsetMinRating': "all"	
 	}
@@ -92,43 +68,37 @@ def getL(p):
 	}
 	print(p)
 	proxies = {
-		#'https': 'https://'+p,
 		'http': 'http://'+p
     }
-	s = requests.Session()
-	adapter = requests.adapters.HTTPAdapter(max_retries=5)
-	s.mount('http://', adapter)
 	try:
-		r = s.post(url, data=data, headers=headers, proxies=proxies)
+		r = requests.post(url, data=data, headers=headers, proxies=proxies)
 		if r.status_code == 200:
 			print("Success")
 			j = r.json()["result"]
 			n = j["total_games"]
 			g = j["games"]
-			file = open("gid.txt",'w')
+			'''
+			with open("result.json",'w') as f:
+				json.dump(g,f)
+			f.close()
+			'''
+			threads = []
 			for i in range(n):
-				gid = str(g[i]['game_id'])
-				file.write(gid+"\n")
-			file.close()
-			s.close()	
-			return
+				t = threading.Thread(target=parsePGN, args=(str(i+1),g[i]))
+				threads.append(t)
+			for task in threads:
+				task.start()
+			for task in threads:
+				task.join()
 		print(r.status_code)
-		return
 	except RequestException as err:
 		print(err)
 		print("Fail")
-		return
 
 		
 if __name__ == '__main__':
 	p = "checked.txt"
 	proxy = readList(p)
-	#getL(random.choice(proxy))
-	#'''
-	done = readList("done.txt")
-	l = "tgid.txt"
-	gid = readList(l)
-	getPGN(gid,proxy,done)
-	#'''
+	getL(random.choice(proxy))
 	print("Finish")
 		

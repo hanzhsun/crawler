@@ -1,0 +1,74 @@
+Sort,Name,Rating,Games,Result,Moves,CPL,MM,Sort score,"Analysis "
+1,Alexei Shirov,2720,7,4.5,216,24,68,44,Level D
+2,Alexander Morozevich,2747,7,6,294,23,64,41,Level D
+3,Christian Bauer,2585,7,4,291,29,64,35,Level D
+4,Aleksa Strikovic,2535,9,8,229,27,61,34,Level D
+5,Dmitry Jakovenko,2671,7,5,298,27,60,33,Level D
+6,Jordi Magem Badals,2487,8,6,170,30,59,29,Level D
+7,Alfonso Llorente Zaro,2419,9,6.5,148,28,57,29,Level D
+8,Viktor Laznicka,2596,7,2,289,32,58,26,Level D
+9,Oleg Korneev,2657,16,7.5,472,35,57,22,Level D
+10,Inigo Argandona Riveiro,2396,9,4,275,36,57,21,Level D
+11,Adrian Villuendas Valero,2176,8,5.5,251,38,57,19,Level D
+12,Radoslaw Wojtaszek,2630,7,3,209,35,54,19,Level D
+13,Azer Mirzoev,2543,9,7,282,33,52,19,Level D
+14,Pablo Glavina,2418,9,5,236,38,56,18,Level D
+15,Juan Mario Gomez Esteban,2486,9,4,432,37,55,18,Level D
+16,Javier Ignacio Esparza Martinez,2047,1,0.5,38,44,61,17,Level C
+17,Jose Miguel Ugalde Ezcurra,2215,9,6,236,37,54,17,Level C
+18,Miguel Navarro Cia,2297,9,4,365,41,57,16,Level D
+19,Jesus Javier Cortes Bueno,2314,7,4,228,38,54,16,Level C
+20,David Monell Camarasa,2212,9,4,327,38,54,16,Level D
+21,Stuart C Conquest,2530,8,6.5,235,41,56,15,Level D
+22,Miguel Illescas Cordoba,2620,7,2.5,210,41,55,14,Level D
+23,Olga Alexandrova,2371,9,5.5,224,39,53,14,Level D
+24,Mikel Huerga Leache,2315,9,6.5,191,38,52,14,Level D
+25,Gustavo Barrenechea Bahamonde,2191,7,4,196,43,55,12,Level D
+26,Eduardo Ros Octavio De Toledo,2166,5,2.5,191,37,48,11,Level D
+27,Lluis Oms Fuentes,2327,8,5,274,45,54,9,Level C
+28,Juan Carlos Lakunza Oyarbide,2175,5,3.5,116,43,52,9,Level C
+29,Tatiana Kononenko,2375,18,8,572,42,51,9,Level C
+30,Raul Garcia,2233,5,2,159,49,57,8,Level D
+31,Eduardo Burguete Archel,2151,4,1.5,192,42,50,8,Level C
+32,Eric Prie,2516,9,3,304,47,53,6,Level D
+33,Antonio Labena Bernal,2003,5,2.5,165,44,49,5,Level C
+34,Claude Landenbergue,2446,9,3.5,303,46,50,4,Level D
+35,Ivan Salgado Lopez,2425,9,5.5,324,53,55,2,Level D
+36,Sergio Anguas Fanlo,2048,1,0.5,35,45,46,1,Level B
+37,Casimiro Ballina Amandi,2007,2,0,50,42,42,0,Level C
+38,David Arjol Echeverria,2073,4,2.5,134,55,54,-1,Level D
+39,Fernando Lopez Gracia,2348,9,3.5,146,54,51,-3,Level C
+40,Manuel Perez Candelario,2496,9,4.5,223,51,48,-3,Level B
+41,Diego Moral Barragan,1863,1,0,19,53,47,-6,Level D
+42,Santiago Gonzalez De La Torre,2357,9,4,334,56,49,-7,Level B
+43,Aitor Alcaide Luque,2100,7,4.5,189,55,48,-7,Level C
+44,Santiago Arjona Martinez,1985,5,2.5,170,53,46,-7,Level B
+45,Daniel Zamarbide Inarrea,2015,4,1.5,157,53,45,-8,Level C
+46,Daniel Gomez Anadon,2268,5,2.5,184,60,51,-9,Level C
+47,Aurelio Vila Dupla,2208,9,2,329,59,50,-9,Level C
+48,Jesus Cortes Lizano,2270,8,5,239,59,49,-10,Level C
+49,Ahmed Tarek Fahmy Moursy,1883,1,0,37,62,51,-11,Level C
+50,Adrian Leranoz Zabalza,2061,4,2,94,61,48,-13,Level C
+51,Inigo Montoya Irigoyen,2064,2,0.5,57,56,42,-14,Level C
+52,Ignacio Eguia Cambero,1913,1,0,22,52,36,-16,Level D
+53,Elizabeth Riera Morilla,1983,1,0,34,58,41,-17,Level D
+54,Emilio Duran Fernandez,1799,1,0,23,62,44,-18,Level C
+55,Antonio Lisarri Tomas,1961,2,0,35,68,46,-22,Level C
+56,Iker Iraneta Unzue,1812,2,0.5,69,68,46,-22,Level C
+57,Gregorio Sola Plaza,2102,2,0,62,71,47,-24,Level C
+58,Imanol Martinez Salas,1956,3,0.5,86,68,44,-24,Level C
+59,Pedro Vinal Gutierrez,2165,2,0.5,50,65,38,-27,Level B
+60,Rafael Ruiz Escobar,1975,2,1,109,69,39,-30,Level A
+61,Borja Zamarbide Inarrea,2202,9,3,252,74,42,-32,Level C
+62,Mario Leon Fernandez,2064,1,0,20,90,45,-45,Level C
+63,Jose Manuel Redin Miqueleiz,,1,0,20,87,40,-47,Level C
+64,Daniel Moreno Gracia,2176,5,2,166,84,34,-50,Level A
+65,Alejandra Porras Mateo,1875,2,0,40,111,50,-61,Level C
+66,Carlos Perez Marchal,2000,1,0,21,87,24,-63,Level D
+67,Joseba Otano Villanueva,1877,1,0,22,91,27,-64,Level C
+68,Mariano De Pablos Fernandez,2025,1,0,30,108,40,-68,Level C
+69,Miguel Argaya Urdaniz,2054,3,0.5,74,100,32,-68,Level A
+70,Kiko Sanchez Salazar,1906,1,0,19,100,32,-68,Level C
+71,Joan Escofet Llongueras,1906,1,0,18,106,28,-78,Level C
+72,Axel Roviralta Montero,2061,1,0,27,112,30,-82,Level C
+73,Iraitz Mauleon Gutierrez,1863,1,0,22,137,36,-101,Level D

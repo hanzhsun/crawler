@@ -1,0 +1,132 @@
+Sort,Name,Rating,Games,Result,Moves,CPL,MM,Sort score,"Analysis "
+1,Jon S Speelman,2605,2,1.5,75,9,73,64,Level D
+2,Robert Huebner,2605,1,1,52,8,69,61,Level D
+3,Peter Leko,2555,1,0.5,22,18,77,59,Level C
+4,Vidmantas Malisauskas,2510,1,0.5,38,12,68,56,Level D
+5,Kiril Georgiev,2615,2,1,93,20,71,51,Level D
+6,Amador Rodriguez Cepedes,2515,1,0.5,38,21,71,50,Level C
+7,Javier B. Campos Moreno,2445,1,1,55,19,67,48,Level D
+8,Vadim Zvjaginsev,2585,1,1,35,18,66,48,Level C
+9,Jon L Arnason,2525,2,1.5,51,22,69,47,Level D
+10,Evgeny Bareev,2675,3,2,76,22,68,46,Level D
+11,Utut Adianto,2520,1,0.5,14,28,71,43,Level B
+12,Eduardas Rozentalis,2595,1,0.5,20,22,65,43,Level D
+13,Alex Yermolinsky,2590,1,1,45,17,60,43,Level D
+14,Eugenio Torre,2535,3,1.5,90,30,71,41,Level D
+15,Alon Greenfeld,2610,1,0,26,28,69,41,Level D
+16,Yasser Seirawan,2585,1,0.5,22,27,68,41,Level C
+17,Vassily Ivanchuk,2695,5,2.5,119,24,65,41,Level D
+18,Einar Gausel,2505,1,0.5,25,25,64,39,Level D
+19,Jeroen Piket,2640,2,2,65,24,63,39,Level D
+20,Paul Van Der Sterren,2605,3,1.5,104,23,62,39,Level D
+21,Predrag Nikolic,2655,2,1,66,22,61,39,Level D
+22,Michael Adams,2640,4,3,150,20,59,39,Level D
+23,Loek Van Wely,2560,1,0.5,18,24,61,37,Level D
+24,Viktor D Kupreichik,2545,2,1,74,30,66,36,Level D
+25,Bogdan Lalic,2500,2,1,78,29,65,36,Level D
+26,Ruslan Irzhanov,2430,1,0.5,22,23,59,36,Level C
+27,Walter Arencibia Rodriguez,2480,1,0,46,23,59,36,Level D
+28,Daniel H. Campora,2560,1,1,45,27,62,35,Level D
+29,Vladimir Kramnik,2725,3,2.5,116,24,59,35,Level D
+30,Boris Gelfand,2685,4,1.5,156,29,63,34,Level D
+31,Veselin Topalov,2645,6,5,199,34,65,31,Level D
+32,Judit Polgar,2630,7,3.5,258,33,64,31,Level D
+33,Anh Dung Nguyen,2340,1,0,30,35,63,28,Level D
+34,Miguel Illescas Cordoba,2590,5,3.5,128,31,59,28,Level D
+35,Joel Lautier,2645,4,1.5,77,30,58,28,Level D
+36,Jacek Gdanski,2505,1,0.5,22,27,55,28,Level C
+37,Dorian Rogozenco,2557,2,2,60,40,67,27,Level D
+38,Jordi Magem Badals,2520,1,0.5,27,29,56,27,Level D
+39,Vladimir Dimitrov,2475,1,1,42,41,67,26,Level D
+40,Lajos Portisch,2610,1,1,54,33,59,26,Level D
+41,Pablo Ricardi,2495,1,0,43,30,56,26,Level D
+42,Mikhail Ulibin,2510,2,1.5,70,27,53,26,Level D
+43,Lubomir Ftacnik,2570,1,0.5,31,26,52,26,Level D
+44,Oleg M Romanishin,2605,3,2,84,32,57,25,Level D
+45,Ivan Sokolov,2625,2,1.5,65,32,57,25,Level D
+46,Mihail Marin,2520,3,1,123,31,56,25,Level D
+47,Viktor Bologan,2600,1,0.5,38,28,53,25,Level C
+48,Vladimir Akopian,2630,3,1.5,99,37,61,24,Level D
+49,Alexei Shirov,2710,7,4.5,189,32,56,24,Level D
+50,Ljubomir Ljubojevic,2580,3,1.5,64,26,50,24,Level D
+51,Heikki M. J. Westerinen,2370,1,0,45,25,49,24,Level D
+52,Lars Bo Hansen,2545,3,1.5,84,34,57,23,Level D
+53,Vasil Spasov,2525,3,1,93,43,65,22,Level D
+54,Julio E Granda Zuniga,2620,1,0,25,42,64,22,Level D
+55,John T. H. Van Der Wiel,2555,2,2,51,37,59,22,Level D
+56,Margeir Petursson,2540,1,0.5,27,34,56,22,Level D
+57,Alexander Morozevich,2575,4,2,124,37,58,21,Level D
+58,Eric Lobron,2580,2,0.5,60,36,57,21,Level D
+59,Andrei Istratescu,2515,2,0.5,49,36,57,21,Level D
+60,Kevin Spraggett,2530,1,1,35,33,54,21,Level D
+61,Ian Rogers,2560,1,0.5,22,29,50,21,Level D
+62,Jun Xu,2560,2,1,62,38,58,20,Level D
+63,Vadim Milov,2565,1,0.5,36,37,56,19,Level D
+64,Garry Kasparov,2815,9,6,247,35,54,19,Level D
+65,Boris F Gulko,2590,4,2.5,140,39,57,18,Level D
+66,Julian M Hodgson,2590,1,0.5,22,28,46,18,Level C
+67,Vasilios Kotronias,2570,2,0.5,73,36,52,16,Level C
+68,Spyridon Skembris,2525,1,0,23,46,61,15,Level D
+69,Johann Hjartarson,2585,3,0.5,146,42,57,15,Level D
+70,Sergei Tiviakov,2480,2,1.5,62,49,63,14,Level D
+71,Darius Ruzele,2495,3,1.5,98,45,59,14,Level D
+72,Anthony J Miles,2570,2,0.5,64,42,56,14,Level D
+73,Ilia Smirin,2615,1,1,23,38,52,14,Level C
+74,Lembit Oll,2475,4,1.5,122,42,55,13,Level D
+75,Edvins Kengis,2580,1,1,35,41,54,13,Level C
+76,Viacheslav Dydyshko,2510,2,1.5,52,35,48,13,Level C
+77,Peter Svidler,2550,3,1.5,105,38,50,12,Level C
+78,Jan H Timman,2635,3,0.5,78,47,58,11,Level D
+79,Artashes Minasian,2525,1,0.5,74,32,43,11,Level C
+80,Mikhail Rytshagov,2460,2,1,63,44,54,10,Level C
+81,Joel Benjamin,2610,1,1,44,46,55,9,Level D
+82,Zurab Azmaiparashvili,2575,4,1.5,159,43,52,9,Level D
+83,Constantin Ionescu,2465,1,0.5,24,38,46,8,Level C
+84,Goran Dizdar,2465,1,0.5,73,33,41,8,Level C
+85,Hicham Hamdouchi,2530,1,0,34,52,59,7,Level D
+86,Igor Miladinovic,2350,1,0,38,42,47,5,Level D
+87,Petar Popovic,2530,2,0.5,68,49,53,4,Level D
+88,Erling Mortensen,2500,2,0,73,45,49,4,Level C
+89,Reynaldo Vera Gonzalez-Quevedo,2485,1,0.5,32,53,56,3,Level D
+90,Giorgi Giorgadze,2565,2,1,57,50,53,3,Level C
+91,Marek Matlak,2490,1,0.5,29,45,48,3,Level B
+92,Leonid Yurtaev,2530,1,1,37,43,46,3,Level D
+93,Gennadi Zaichik,2530,1,1,31,42,45,3,Level C
+94,Zbynek Hracek,2530,1,1,51,38,41,3,Level C
+95,Branko Damljanovic,2505,2,0,87,44,46,2,Level D
+96,Terry Toh,2300,1,0,43,42,44,2,Level B
+97,Leonid Yudasin,2625,2,0.5,71,54,54,0,Level C
+98,Christopher Lutz,2580,1,0,34,53,53,0,Level D
+99,Valery A Loginov,2510,1,0,26,51,50,-1,Level D
+100,Raouf Gadjily,2260,1,0.5,29,50,48,-2,Level B
+101,Alexey Dreev,2650,2,1,74,47,45,-2,Level B
+102,Alberto David,2425,1,1,54,56,52,-4,Level C
+103,Nigel D Short,2665,3,1.5,97,53,49,-4,Level B
+104,Vladislav Tkachiev,2645,2,1.5,31,60,55,-5,Level C
+105,Jamshed Isaev,2380,1,0,40,44,38,-6,Level D
+106,Viktor Korchnoi,2615,1,0,22,71,64,-7,Level C
+107,Nasib Ginting,2395,1,0,41,58,51,-7,Level D
+108,Artur Yusupov,2655,4,2,97,53,46,-7,Level D
+109,Lev Psakhis,2615,1,0,50,49,42,-7,Level B
+110,Marc Santo-Roman,2420,2,0.5,49,69,59,-10,Level D
+111,Lasha Janjghava,2500,2,0,69,64,52,-12,Level C
+112,Emir Dizdarevic,2495,1,1,23,74,61,-13,Level C
+113,Robert Kuczynski,2515,3,1,100,56,43,-13,Level C
+114,Vlastimil Babula,2515,1,0,17,68,53,-15,Level D
+115,Vladislav Nevednichy,2470,1,1,37,57,38,-19,Level A
+116,Andrei Sokolov,2605,1,0.5,17,64,41,-23,Level A
+117,Vladimir P Malaniuk,2610,2,0.5,47,71,47,-24,Level D
+118,Pablo San Segundo Carrillo,2485,1,1,26,75,50,-25,Level D
+119,Sune Berg Hansen,2440,1,0.5,35,69,43,-26,Level A
+120,Sergey Zagrebelny,2515,1,0.5,17,62,35,-27,Level A
+121,Smbat G Lputian,2590,1,0,36,68,39,-29,Level A
+122,Espen Agdestein,2330,1,0.5,36,72,42,-30,Level A
+123,Olav Sepp,2470,1,0,40,67,35,-32,Level C
+124,Walter Wittmann,2390,1,0,29,94,55,-39,Level D
+125,Zigurds Lanka,2540,2,1.5,53,74,34,-40,Level A
+126,Grigory Serper,2420,1,0.5,32,86,38,-48,Level A
+127,Vasily Yemelin,2520,1,0,32,95,44,-51,Level C
+128,Jiangchuan Ye,2575,1,0,23,92,39,-53,Level D
+129,Jonathan D Tisdall,2465,1,0,22,90,27,-63,Level A
+130,Jan Plachetka,2420,1,0,13,122,39,-83,Level D
+131,Federico Manca,2375,1,0,23,130,39,-91,Level C
