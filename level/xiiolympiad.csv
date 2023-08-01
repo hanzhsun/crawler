@@ -1,0 +1,460 @@
+Name,Rating,Games,Result,Moves,CPL,MM,Sort Score,Analysis
+Oleg M Romanishin,2605,3,2.0,84,33,57,24,A
+Oleg M Romanishin,2605,3,2.0,84,34,58,24,B
+Oleg M Romanishin,2605,3,2.0,84,36,58,22,C
+Oleg M Romanishin,2605,3,2.0,84,32,57,25,D
+Margeir Petursson,2540,1,0.5,27,24,70,46,A
+Margeir Petursson,2540,1,0.5,27,32,56,24,B
+Margeir Petursson,2540,1,0.5,27,32,59,27,C
+Margeir Petursson,2540,1,0.5,27,34,56,22,D
+Alberto David,2425,1,1,53,57,49,-8,A
+Alberto David,2425,1,1,53,45,60,15,B
+Alberto David,2425,1,1,53,57,53,-4,C
+Alberto David,2425,1,1,53,56,49,-7,D
+Leonid Yudasin,2625,2,0.5,70,51,56,5,A
+Leonid Yudasin,2625,2,0.5,70,51,53,2,B
+Leonid Yudasin,2625,2,0.5,70,58,51,-7,C
+Leonid Yudasin,2625,2,0.5,70,52,54,2,D
+Ruslan Irzhanov,2430,1,0.5,22,35,59,24,A
+Ruslan Irzhanov,2430,1,0.5,22,25,59,34,B
+Ruslan Irzhanov,2430,1,0.5,22,23,59,36,C
+Ruslan Irzhanov,2430,1,0.5,22,25,54,29,D
+Julian M Hodgson,2590,1,0.5,22,42,54,12,A
+Julian M Hodgson,2590,1,0.5,22,34,54,20,B
+Julian M Hodgson,2590,1,0.5,22,28,46,18,C
+Julian M Hodgson,2590,1,0.5,22,20,54,34,D
+Artur Yusupov,2655,4,2.0,97,59,44,-15,A
+Artur Yusupov,2655,4,2.0,97,53,46,-7,D
+Eugenio Torre,2535,3,1.5,90,44,61,17,A
+Eugenio Torre,2535,3,1.5,90,28,69,41,B
+Eugenio Torre,2535,3,1.5,90,29,67,38,C
+Eugenio Torre,2535,3,1.5,90,30,71,41,D
+Evgeny Bareev,2675,3,2.0,76,19,70,51,A
+Evgeny Bareev,2675,3,2.0,76,18,71,53,B
+Evgeny Bareev,2675,3,2.0,76,19,72,53,C
+Evgeny Bareev,2675,3,2.0,76,22,68,46,D
+Giorgi Giorgadze,2565,2,1,57,66,56,-10,A
+Giorgi Giorgadze,2565,2,1,57,51,51,0,B
+Giorgi Giorgadze,2565,2,1,57,48,54,6,C
+Giorgi Giorgadze,2565,2,1,57,49,53,4,D
+Marc Santo-Roman,2420,2,0.5,49,62,59,-3,A
+Marc Santo-Roman,2420,2,0.5,49,49,61,12,B
+Marc Santo-Roman,2420,2,0.5,49,69,55,-14,C
+Marc Santo-Roman,2420,2,0.5,49,69,59,-10,D
+Viacheslav Dydyshko,2510,2,1.5,52,50,40,-10,A
+Viacheslav Dydyshko,2510,2,1.5,52,35,48,13,C
+Viacheslav Dydyshko,2510,2,1.5,52,32,46,14,D
+Jacek Gdanski,2505,1,0.5,22,46,50,4,A
+Jacek Gdanski,2505,1,0.5,22,27,46,19,B
+Jacek Gdanski,2505,1,0.5,22,27,54,27,C
+Jacek Gdanski,2505,1,0.5,22,25,46,21,D
+Yasser Seirawan,2585,1,0.5,22,34,54,20,A
+Yasser Seirawan,2585,1,0.5,22,24,68,44,B
+Yasser Seirawan,2585,1,0.5,22,27,68,41,C
+Yasser Seirawan,2585,1,0.5,22,24,73,49,D
+Peter Leko,2555,1,0.5,22,12,73,61,A
+Peter Leko,2555,1,0.5,22,18,64,46,B
+Peter Leko,2555,1,0.5,22,18,77,59,C
+Peter Leko,2555,1,0.5,22,19,77,58,D
+Espen Agdestein,2330,1,0.5,35,74,43,-31,A
+Espen Agdestein,2330,1,0.5,35,59,46,-13,B
+Espen Agdestein,2330,1,0.5,35,71,46,-25,C
+Espen Agdestein,2330,1,0.5,35,51,54,3,D
+Sune Berg Hansen,2440,1,0.5,35,69,43,-26,A
+Sune Berg Hansen,2440,1,0.5,35,58,46,-12,B
+Sune Berg Hansen,2440,1,0.5,35,73,43,-30,C
+Sune Berg Hansen,2440,1,0.5,35,67,43,-24,D
+Paul Van Der Sterren,2605,3,1.5,104,28,62,34,A
+Paul Van Der Sterren,2605,3,1.5,104,26,65,39,B
+Paul Van Der Sterren,2605,3,1.5,104,22,63,41,C
+Paul Van Der Sterren,2605,3,1.5,104,23,62,39,D
+Jon S Speelman,2605,2,1.5,75,14,71,57,A
+Jon S Speelman,2605,2,1.5,75,16,67,51,B
+Jon S Speelman,2605,2,1.5,75,15,72,57,C
+Jon S Speelman,2605,2,1.5,75,9,73,64,D
+Olav Sepp,2470,1,0,40,81,40,-41,A
+Olav Sepp,2470,1,0,40,72,38,-34,B
+Olav Sepp,2470,1,0,40,67,35,-32,C
+Olav Sepp,2470,1,0,40,67,40,-27,D
+Garry Kasparov,2815,9,6.0,247,47,53,6,A
+Garry Kasparov,2815,9,6.0,247,45,53,8,B
+Garry Kasparov,2815,9,6.0,247,34,56,22,C
+Garry Kasparov,2815,9,6.0,247,35,54,19,D
+Zurab Azmaiparashvili,2575,4,1.5,159,48,50,2,A
+Zurab Azmaiparashvili,2575,4,1.5,159,40,48,8,C
+Zurab Azmaiparashvili,2575,4,1.5,159,43,52,9,D
+Predrag Nikolic,2655,2,1.0,66,32,61,29,A
+Predrag Nikolic,2655,2,1.0,66,26,65,39,B
+Predrag Nikolic,2655,2,1.0,66,25,62,37,C
+Predrag Nikolic,2655,2,1.0,66,22,61,39,D
+Terry Toh,2300,1,0,41,44,56,12,A
+Terry Toh,2300,1,0,41,44,46,2,B
+Terry Toh,2300,1,0,41,49,51,2,C
+Terry Toh,2300,1,0,41,57,37,-20,D
+Alexey Dreev,2650,2,1,73,52,48,-4,A
+Alexey Dreev,2650,2,1,73,52,42,-10,B
+Alexey Dreev,2650,2,1,73,48,45,-3,C
+Alexey Dreev,2650,2,1,73,48,42,-6,D
+Ivan Sokolov,2625,2,1.5,65,29,55,26,A
+Ivan Sokolov,2625,2,1.5,65,31,60,29,B
+Ivan Sokolov,2625,2,1.5,65,27,60,33,C
+Ivan Sokolov,2625,2,1.5,65,32,57,25,D
+Vladimir P Malaniuk,2610,2,0.5,47,71,47,-24,A
+Vladimir P Malaniuk,2610,2,0.5,47,70,49,-21,B
+Vladimir P Malaniuk,2610,2,0.5,47,74,47,-27,C
+Vladimir P Malaniuk,2610,2,0.5,47,71,47,-24,D
+Viktor Korchnoi,2615,1,0,22,53,59,6,A
+Viktor Korchnoi,2615,1,0,22,77,54,-23,B
+Viktor Korchnoi,2615,1,0,22,71,64,-7,C
+Viktor Korchnoi,2615,1,0,22,76,59,-17,D
+Vladislav Tkachiev,2645,2,1.5,31,82,48,-34,A
+Vladislav Tkachiev,2645,2,1.5,31,95,45,-50,B
+Vladislav Tkachiev,2645,2,1.5,31,59,55,-4,C
+Vladislav Tkachiev,2645,2,1.5,31,53,55,2,D
+Vladimir Akopian,2630,3,1.5,99,51,60,9,A
+Vladimir Akopian,2630,3,1.5,99,46,60,14,B
+Vladimir Akopian,2630,3,1.5,99,36,61,25,C
+Vladimir Akopian,2630,3,1.5,99,37,61,24,D
+Mihail Marin,2520,3,1,123,51,57,6,A
+Mihail Marin,2520,3,1,123,31,56,25,D
+Jon L Arnason,2525,2,1.5,51,31,61,30,A
+Jon L Arnason,2525,2,1.5,51,20,71,51,C
+Jon L Arnason,2525,2,1.5,51,22,69,47,D
+Robert Kuczynski,2515,3,1,100,45,53,8,A
+Robert Kuczynski,2515,3,1,100,55,44,-11,D
+Judit Polgar,2630,7,3.5,258,38,59,21,A
+Judit Polgar,2630,7,3.5,258,33,64,31,D
+Robert Huebner,2605,1,1,52,13,69,56,A
+Robert Huebner,2605,1,1,52,13,69,56,B
+Robert Huebner,2605,1,1,52,12,75,63,C
+Robert Huebner,2605,1,1,52,8,69,61,D
+Kiril Georgiev,2615,2,1,93,14,67,53,A
+Kiril Georgiev,2615,2,1,93,13,72,59,B
+Kiril Georgiev,2615,2,1,93,18,70,52,C
+Kiril Georgiev,2615,2,1,93,20,71,51,D
+Alexei Shirov,2710,7,4.5,189,46,50,4,A
+Alexei Shirov,2710,7,4.5,189,34,56,22,C
+Alexei Shirov,2710,7,4.5,189,32,56,24,D
+Lars Bo Hansen,2545,3,1.5,84,53,55,2,A
+Lars Bo Hansen,2545,3,1.5,84,36,56,20,C
+Lars Bo Hansen,2545,3,1.5,84,34,57,23,D
+Nigel D Short,2665,3,1.5,97,62,51,-11,A
+Nigel D Short,2665,3,1.5,97,46,53,7,B
+Nigel D Short,2665,3,1.5,97,51,54,3,C
+Nigel D Short,2665,3,1.5,97,53,49,-4,D
+Johann Hjartarson,2585,3,0.5,146,50,52,2,A
+Johann Hjartarson,2585,3,0.5,146,35,58,23,C
+Johann Hjartarson,2585,3,0.5,146,42,57,15,D
+Jeroen Piket,2640,2,2,65,44,62,18,A
+Jeroen Piket,2640,2,2,65,25,62,37,B
+Jeroen Piket,2640,2,2,65,26,63,37,C
+Jeroen Piket,2640,2,2,65,24,63,39,D
+Jun Xu,2560,2,1,62,53,56,3,A
+Jun Xu,2560,2,1,62,46,60,14,B
+Jun Xu,2560,2,1,62,44,60,16,C
+Jun Xu,2560,2,1,62,38,58,20,D
+Andrei Sokolov,2605,1,0.5,17,64,41,-23,A
+Andrei Sokolov,2605,1,0.5,17,55,41,-14,B
+Andrei Sokolov,2605,1,0.5,17,40,53,13,C
+Andrei Sokolov,2605,1,0.5,17,40,41,1,D
+Sergey Zagrebelny,2515,1,0.5,17,62,35,-27,A
+Sergey Zagrebelny,2515,1,0.5,17,53,35,-18,B
+Sergey Zagrebelny,2515,1,0.5,17,44,41,-3,C
+Sergey Zagrebelny,2515,1,0.5,17,38,41,3,D
+Christopher Lutz,2580,1,0,34,63,47,-16,A
+Christopher Lutz,2580,1,0,34,63,44,-19,B
+Christopher Lutz,2580,1,0,34,67,47,-20,C
+Christopher Lutz,2580,1,0,34,52,53,1,D
+Pablo San Segundo Carrillo,2485,1,1,26,48,69,21,A
+Pablo San Segundo Carrillo,2485,1,1,26,34,65,31,B
+Pablo San Segundo Carrillo,2485,1,1,26,65,58,-7,C
+Pablo San Segundo Carrillo,2485,1,1,26,75,50,-25,D
+Vassily Ivanchuk,2695,5,2.5,119,28,62,34,A
+Vassily Ivanchuk,2695,5,2.5,119,24,65,41,D
+Miguel Illescas Cordoba,2590,5,3.5,128,39,55,16,A
+Miguel Illescas Cordoba,2590,5,3.5,128,28,60,32,C
+Miguel Illescas Cordoba,2590,5,3.5,128,31,59,28,D
+Leonid Yurtaev,2530,1,1,37,48,49,1,A
+Leonid Yurtaev,2530,1,1,37,45,49,4,C
+Leonid Yurtaev,2530,1,1,37,43,46,3,D
+Hicham Hamdouchi,2530,1,0,34,56,53,-3,A
+Hicham Hamdouchi,2530,1,0,34,52,59,7,D
+Mikhail Ulibin,2510,2,1.5,70,24,66,42,A
+Mikhail Ulibin,2510,2,1.5,70,33,54,21,B
+Mikhail Ulibin,2510,2,1.5,70,24,56,32,C
+Mikhail Ulibin,2510,2,1.5,70,27,53,26,D
+Michael Adams,2640,4,3.0,150,27,55,28,A
+Michael Adams,2640,4,3.0,150,24,55,31,B
+Michael Adams,2640,4,3.0,150,24,55,31,C
+Michael Adams,2640,4,3.0,150,20,59,39,D
+Pablo Ricardi,2495,1,0,43,29,46,17,A
+Pablo Ricardi,2495,1,0,43,27,54,27,B
+Pablo Ricardi,2495,1,0,43,26,63,37,C
+Pablo Ricardi,2495,1,0,43,30,56,26,D
+Jan H Timman,2635,3,0.5,78,52,54,2,A
+Jan H Timman,2635,3,0.5,78,50,59,9,C
+Jan H Timman,2635,3,0.5,78,47,58,11,D
+Boris F Gulko,2590,4,2.5,140,48,54,6,A
+Boris F Gulko,2590,4,2.5,140,39,57,18,D
+Boris Gelfand,2685,4,1.5,156,32,62,30,A
+Boris Gelfand,2685,4,1.5,156,30,60,30,C
+Boris Gelfand,2685,4,1.5,156,29,63,34,D
+Veselin Topalov,2645,6,5,199,43,59,16,A
+Veselin Topalov,2645,6,5,199,38,60,22,C
+Veselin Topalov,2645,6,5,199,34,65,31,D
+Lasha Janjghava,2500,2,0,66,73,47,-26,A
+Lasha Janjghava,2500,2,0,66,72,52,-20,C
+Lasha Janjghava,2500,2,0,66,61,56,-5,D
+Vidmantas Malisauskas,2510,1,0.5,38,16,63,47,A
+Vidmantas Malisauskas,2510,1,0.5,38,20,58,38,B
+Vidmantas Malisauskas,2510,1,0.5,38,15,66,51,C
+Vidmantas Malisauskas,2510,1,0.5,38,12,68,56,D
+Marek Matlak,2490,1,0.5,29,56,48,-8,A
+Marek Matlak,2490,1,0.5,29,44,48,4,B
+Marek Matlak,2490,1,0.5,29,43,45,2,C
+Marek Matlak,2490,1,0.5,29,42,45,3,D
+Raouf Gadjily,2260,1,0.5,29,61,41,-20,A
+Raouf Gadjily,2260,1,0.5,29,50,48,-2,B
+Raouf Gadjily,2260,1,0.5,29,49,41,-8,C
+Raouf Gadjily,2260,1,0.5,29,54,38,-16,D
+Joel Lautier,2645,4,1.5,77,36,51,15,A
+Joel Lautier,2645,4,1.5,77,33,58,25,C
+Joel Lautier,2645,4,1.5,77,30,58,28,D
+Alon Greenfeld,2610,1,0,26,36,69,33,A
+Alon Greenfeld,2610,1,0,26,30,73,43,B
+Alon Greenfeld,2610,1,0,26,32,65,33,C
+Alon Greenfeld,2610,1,0,26,28,69,41,D
+Valery A Loginov,2510,1,0,26,67,46,-21,A
+Valery A Loginov,2510,1,0,26,73,50,-23,C
+Valery A Loginov,2510,1,0,26,51,50,-1,D
+Ian Rogers,2560,1,0.5,22,42,46,4,A
+Ian Rogers,2560,1,0.5,22,40,41,1,C
+Ian Rogers,2560,1,0.5,22,29,50,21,D
+Amador Rodriguez Cepedes,2515,1,0.5,38,19,71,52,A
+Amador Rodriguez Cepedes,2515,1,0.5,38,19,68,49,B
+Amador Rodriguez Cepedes,2515,1,0.5,38,21,71,50,C
+Amador Rodriguez Cepedes,2515,1,0.5,38,22,63,41,D
+Viktor Bologan,2600,1,0.5,38,20,58,38,A
+Viktor Bologan,2600,1,0.5,38,22,60,38,B
+Viktor Bologan,2600,1,0.5,38,28,53,25,C
+Viktor Bologan,2600,1,0.5,38,27,58,31,D
+Einar Gausel,2505,1,0.5,25,29,68,39,A
+Einar Gausel,2505,1,0.5,25,24,64,40,C
+Einar Gausel,2505,1,0.5,25,25,64,39,D
+Emir Dizdarevic,2495,1,1,23,67,57,-10,A
+Emir Dizdarevic,2495,1,1,23,49,61,12,B
+Emir Dizdarevic,2495,1,1,23,74,61,-13,C
+Emir Dizdarevic,2495,1,1,23,70,52,-18,D
+Federico Manca,2375,1,0,23,90,44,-46,A
+Federico Manca,2375,1,0,23,89,48,-41,B
+Federico Manca,2375,1,0,23,130,39,-91,C
+Federico Manca,2375,1,0,23,122,39,-83,D
+Alexander Morozevich,2575,4,2.0,124,55,54,-1,A
+Alexander Morozevich,2575,4,2.0,124,37,58,21,D
+Igor Miladinovic,2350,1,0,38,39,53,14,A
+Igor Miladinovic,2350,1,0,38,37,50,13,B
+Igor Miladinovic,2350,1,0,38,35,50,15,C
+Igor Miladinovic,2350,1,0,38,42,47,5,D
+Vladimir Kramnik,2725,3,2.5,116,22,59,37,A
+Vladimir Kramnik,2725,3,2.5,116,23,65,42,C
+Vladimir Kramnik,2725,3,2.5,116,24,59,35,D
+Branko Damljanovic,2505,2,0,87,48,47,-1,A
+Branko Damljanovic,2505,2,0,87,43,52,9,C
+Branko Damljanovic,2505,2,0,87,44,46,2,D
+Vadim Milov,2565,1,0.5,36,44,42,-2,A
+Vadim Milov,2565,1,0.5,36,31,50,19,B
+Vadim Milov,2565,1,0.5,36,36,58,22,C
+Vadim Milov,2565,1,0.5,36,37,56,19,D
+Anthony J Miles,2570,2,0.5,64,60,59,-1,A
+Anthony J Miles,2570,2,0.5,64,46,56,10,B
+Anthony J Miles,2570,2,0.5,64,48,55,7,C
+Anthony J Miles,2570,2,0.5,64,42,56,14,D
+Kevin Spraggett,2530,1,1,35,34,51,17,A
+Kevin Spraggett,2530,1,1,35,31,57,26,C
+Kevin Spraggett,2530,1,1,35,33,54,21,D
+Eric Lobron,2580,2,0.5,60,44,43,-1,A
+Eric Lobron,2580,2,0.5,60,36,52,16,B
+Eric Lobron,2580,2,0.5,60,39,50,11,C
+Eric Lobron,2580,2,0.5,60,36,57,21,D
+Jordi Magem Badals,2520,1,0.5,27,20,59,39,A
+Jordi Magem Badals,2520,1,0.5,27,33,56,23,B
+Jordi Magem Badals,2520,1,0.5,27,33,59,26,C
+Jordi Magem Badals,2520,1,0.5,27,29,56,27,D
+Reynaldo Vera Gonzalez-Quevedo,2485,1,0.5,32,58,50,-8,A
+Reynaldo Vera Gonzalez-Quevedo,2485,1,0.5,32,47,53,6,C
+Reynaldo Vera Gonzalez-Quevedo,2485,1,0.5,32,53,56,3,D
+Sergei Tiviakov,2480,2,1.5,62,44,61,17,A
+Sergei Tiviakov,2480,2,1.5,62,38,63,25,C
+Sergei Tiviakov,2480,2,1.5,62,49,63,14,D
+Viktor D Kupreichik,2545,2,1,74,30,65,35,A
+Viktor D Kupreichik,2545,2,1,74,33,66,33,C
+Viktor D Kupreichik,2545,2,1,74,30,66,36,D
+Julio E Granda Zuniga,2620,1,0,25,58,48,-10,A
+Julio E Granda Zuniga,2620,1,0,25,42,60,18,C
+Julio E Granda Zuniga,2620,1,0,25,42,64,22,D
+Javier B. Campos Moreno,2445,1,1,55,19,71,52,A
+Javier B. Campos Moreno,2445,1,1,55,17,75,58,C
+Javier B. Campos Moreno,2445,1,1,55,19,67,48,D
+Erling Mortensen,2500,2,0,73,48,45,-3,A
+Erling Mortensen,2500,2,0,73,46,47,1,C
+Erling Mortensen,2500,2,0,73,44,51,7,D
+Peter Svidler,2550,3,1.5,105,38,50,12,A
+Peter Svidler,2550,3,1.5,105,38,52,14,C
+Peter Svidler,2550,3,1.5,105,41,48,7,D
+Darius Ruzele,2495,3,1.5,98,45,56,11,A
+Darius Ruzele,2495,3,1.5,98,45,58,13,C
+Darius Ruzele,2495,3,1.5,98,45,59,14,D
+Jan Plachetka,2420,1,0,13,153,38,-115,A
+Jan Plachetka,2420,1,0,13,139,31,-108,C
+Jan Plachetka,2420,1,0,13,122,38,-84,D
+Jiangchuan Ye,2575,1,0,23,72,56,-16,A
+Jiangchuan Ye,2575,1,0,23,85,39,-46,C
+Jiangchuan Ye,2575,1,0,23,92,39,-53,D
+Spyridon Skembris,2525,1,0,23,52,52,0,A
+Spyridon Skembris,2525,1,0,23,46,61,15,D
+Ljubomir Ljubojevic,2580,3,1.5,64,35,45,10,A
+Ljubomir Ljubojevic,2580,3,1.5,64,31,47,16,C
+Ljubomir Ljubojevic,2580,3,1.5,64,26,50,24,D
+Joel Benjamin,2610,1,1,44,51,52,1,A
+Joel Benjamin,2610,1,1,44,56,45,-11,C
+Joel Benjamin,2610,1,1,44,46,54,8,D
+Petar Popovic,2530,2,0.5,68,42,54,12,A
+Petar Popovic,2530,2,0.5,68,42,62,20,C
+Petar Popovic,2530,2,0.5,68,49,53,4,D
+Grigory Serper,2420,1,0.5,32,86,38,-48,A
+Grigory Serper,2420,1,0.5,32,40,41,1,B
+Grigory Serper,2420,1,0.5,32,52,38,-14,C
+Grigory Serper,2420,1,0.5,32,47,38,-9,D
+Zigurds Lanka,2540,2,1.5,53,74,34,-40,A
+Zigurds Lanka,2540,2,1.5,53,41,40,-1,B
+Zigurds Lanka,2540,2,1.5,53,42,42,0,C
+Zigurds Lanka,2540,2,1.5,53,34,43,9,D
+Ilia Smirin,2615,1,1,23,50,52,2,A
+Ilia Smirin,2615,1,1,23,36,56,20,B
+Ilia Smirin,2615,1,1,23,38,52,14,C
+Ilia Smirin,2615,1,1,23,34,52,18,D
+Bogdan Lalic,2500,2,1.0,78,48,59,11,A
+Bogdan Lalic,2500,2,1.0,78,29,65,36,D
+Dorian Rogozenco,2557,2,2,60,41,68,27,A
+Dorian Rogozenco,2557,2,2,60,37,65,28,B
+Dorian Rogozenco,2557,2,2,60,37,68,31,C
+Dorian Rogozenco,2557,2,2,60,40,67,27,D
+Walter Wittmann,2390,1,0,29,78,52,-26,A
+Walter Wittmann,2390,1,0,29,79,48,-31,B
+Walter Wittmann,2390,1,0,29,93,52,-41,C
+Walter Wittmann,2390,1,0,29,94,55,-39,D
+Vadim Zvjaginsev,2585,1,1,35,23,60,37,A
+Vadim Zvjaginsev,2585,1,1,35,18,66,48,C
+Vadim Zvjaginsev,2585,1,1,35,20,54,34,D
+Zbynek Hracek,2530,1,1,51,31,53,22,A
+Zbynek Hracek,2530,1,1,51,35,49,14,B
+Zbynek Hracek,2530,1,1,51,38,41,3,C
+Zbynek Hracek,2530,1,1,51,35,41,6,D
+Vasilios Kotronias,2570,2,0.5,73,40,48,8,A
+Vasilios Kotronias,2570,2,0.5,73,38,49,11,B
+Vasilios Kotronias,2570,2,0.5,73,36,52,16,C
+Vasilios Kotronias,2570,2,0.5,73,37,49,12,D
+John T. H. Van Der Wiel,2555,2,2,51,51,53,2,A
+John T. H. Van Der Wiel,2555,2,2,51,44,57,13,C
+John T. H. Van Der Wiel,2555,2,2,51,37,59,22,D
+Vlastimil Babula,2515,1,0,17,102,53,-49,A
+Vlastimil Babula,2515,1,0,17,78,53,-25,B
+Vlastimil Babula,2515,1,0,17,86,53,-33,C
+Vlastimil Babula,2515,1,0,17,68,53,-15,D
+Daniel H. Campora,2560,1,1,45,41,58,17,A
+Daniel H. Campora,2560,1,1,45,33,60,27,C
+Daniel H. Campora,2560,1,1,45,26,62,36,D
+Artashes Minasian,2525,1,0.5,74,34,47,13,A
+Artashes Minasian,2525,1,0.5,74,34,43,9,B
+Artashes Minasian,2525,1,0.5,74,32,43,11,C
+Artashes Minasian,2525,1,0.5,74,32,45,13,D
+Goran Dizdar,2465,1,0.5,73,38,44,6,A
+Goran Dizdar,2465,1,0.5,73,32,44,12,B
+Goran Dizdar,2465,1,0.5,73,33,41,8,C
+Goran Dizdar,2465,1,0.5,73,33,36,3,D
+Anh Dung Nguyen,2340,1,0,30,54,50,-4,A
+Anh Dung Nguyen,2340,1,0,30,41,50,9,B
+Anh Dung Nguyen,2340,1,0,30,46,50,4,C
+Anh Dung Nguyen,2340,1,0,30,35,63,28,D
+Constantin Ionescu,2465,1,0.5,24,46,50,4,A
+Constantin Ionescu,2465,1,0.5,24,32,58,26,B
+Constantin Ionescu,2465,1,0.5,24,38,46,8,C
+Constantin Ionescu,2465,1,0.5,24,42,46,4,D
+Lajos Portisch,2610,1,1,54,37,57,20,A
+Lajos Portisch,2610,1,1,54,26,57,31,B
+Lajos Portisch,2610,1,1,54,28,57,29,C
+Lajos Portisch,2610,1,1,54,32,59,27,D
+Mikhail Rytshagov,2460,2,1.0,63,44,57,13,A
+Mikhail Rytshagov,2460,2,1.0,63,46,54,8,C
+Mikhail Rytshagov,2460,2,1.0,63,42,51,9,D
+Lembit Oll,2475,4,1.5,122,51,57,6,A
+Lembit Oll,2475,4,1.5,122,43,54,11,C
+Lembit Oll,2475,4,1.5,122,42,55,13,D
+Lubomir Ftacnik,2570,1,0.5,31,29,52,23,A
+Lubomir Ftacnik,2570,1,0.5,31,26,52,26,D
+Vasil Spasov,2525,3,1,93,59,57,-2,A
+Vasil Spasov,2525,3,1,93,47,63,16,C
+Vasil Spasov,2525,3,1,93,43,65,22,D
+Jonathan D Tisdall,2465,1,0,22,90,27,-63,A
+Jonathan D Tisdall,2465,1,0,22,56,46,-10,B
+Jonathan D Tisdall,2465,1,0,22,75,32,-43,C
+Jonathan D Tisdall,2465,1,0,22,50,46,-4,D
+Andrei Istratescu,2515,2,0.5,49,50,59,9,A
+Andrei Istratescu,2515,2,0.5,49,40,55,15,C
+Andrei Istratescu,2515,2,0.5,49,36,57,21,D
+Loek Van Wely,2560,1,0.5,18,23,72,49,A
+Loek Van Wely,2560,1,0.5,18,31,56,25,C
+Loek Van Wely,2560,1,0.5,18,24,61,37,D
+Lev Psakhis,2615,1,0,50,49,42,-7,A
+Lev Psakhis,2615,1,0,50,49,42,-7,B
+Lev Psakhis,2615,1,0,50,44,42,-2,C
+Lev Psakhis,2615,1,0,50,43,50,7,D
+Utut Adianto,2520,1,0.5,14,33,50,17,A
+Utut Adianto,2520,1,0.5,14,28,71,43,B
+Utut Adianto,2520,1,0.5,14,33,64,31,C
+Utut Adianto,2520,1,0.5,14,43,64,21,D
+Jamshed Isaev,2380,1,0,40,66,40,-26,A
+Jamshed Isaev,2380,1,0,40,50,40,-10,B
+Jamshed Isaev,2380,1,0,40,44,38,-6,C
+Jamshed Isaev,2380,1,0,40,44,38,-6,D
+Vasily Yemelin,2520,1,0,32,77,50,-27,A
+Vasily Yemelin,2520,1,0,32,80,47,-33,B
+Vasily Yemelin,2520,1,0,32,94,44,-50,C
+Vasily Yemelin,2520,1,0,32,96,47,-49,D
+Gennadi Zaichik,2530,1,1,31,50,45,-5,A
+Gennadi Zaichik,2530,1,1,31,40,55,15,B
+Gennadi Zaichik,2530,1,1,31,42,45,3,C
+Gennadi Zaichik,2530,1,1,31,42,48,6,D
+Vladimir Dimitrov,2475,1,1,42,26,64,38,A
+Vladimir Dimitrov,2475,1,1,42,42,60,18,B
+Vladimir Dimitrov,2475,1,1,42,40,67,27,C
+Vladimir Dimitrov,2475,1,1,42,41,67,26,D
+Nasib Ginting,2395,1,0,41,85,54,-31,A
+Nasib Ginting,2395,1,0,41,66,51,-15,B
+Nasib Ginting,2395,1,0,41,60,66,6,C
+Nasib Ginting,2395,1,0,41,58,51,-7,D
+Heikki M. J. Westerinen,2370,1,0,45,34,44,10,A
+Heikki M. J. Westerinen,2370,1,0,45,28,42,14,B
+Heikki M. J. Westerinen,2370,1,0,45,27,51,24,C
+Heikki M. J. Westerinen,2370,1,0,45,25,49,24,D
+Alex Yermolinsky,2590,1,1,45,18,64,46,A
+Alex Yermolinsky,2590,1,1,45,13,67,54,B
+Alex Yermolinsky,2590,1,1,45,17,53,36,C
+Alex Yermolinsky,2590,1,1,45,17,60,43,D
+Walter Arencibia Rodriguez,2480,1,0,46,19,59,40,A
+Walter Arencibia Rodriguez,2480,1,0,46,21,54,33,B
+Walter Arencibia Rodriguez,2480,1,0,46,23,61,38,C
+Walter Arencibia Rodriguez,2480,1,0,46,23,59,36,D
+Eduardas Rozentalis,2595,1,0.5,20,70,55,-15,A
+Eduardas Rozentalis,2595,1,0.5,20,22,65,43,D
+Edvins Kengis,2580,1,1,35,36,57,21,A
+Edvins Kengis,2580,1,1,35,41,54,13,C
+Edvins Kengis,2580,1,1,35,32,49,17,D
+Vladislav Nevednichy,2470,1,1,37,57,38,-19,A
+Vladislav Nevednichy,2470,1,1,37,49,38,-11,B
+Vladislav Nevednichy,2470,1,1,37,48,40,-8,C
+Vladislav Nevednichy,2470,1,1,37,45,46,1,D
+Smbat G Lputian,2590,1,0,36,68,39,-29,A
+Smbat G Lputian,2590,1,0,36,58,39,-19,B
+Smbat G Lputian,2590,1,0,36,54,44,-10,C
+Smbat G Lputian,2590,1,0,36,54,42,-12,D

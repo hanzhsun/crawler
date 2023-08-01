@@ -83,7 +83,29 @@ def download_page(data, list: bool, n: int=-1):
             sleep(SLEEP_TIME + randint(0, 5))
 
 
-def get_all_albums(album_id: str, list: bool):
+def get_articles(album_id: str, list: bool):
+    params = {
+        'album_id': album_id,
+        'lastRank': 0,
+        'rankOrder': 'asc',
+        'rankField': 'rank',
+    }
+    while True:
+        resp = requests.get('https://afdian.net/api/user/get-album-post', headers=headers, params=params,
+                            cookies=cookies).json()
+        data = resp["data"]
+        download_page(data, list, -1)
+        params["lastRank"] += 10
+        if list:
+            sleep(randint(2, 5))
+        else:
+            sleep(SLEEP_TIME + randint(0, 5))
+        if data["has_more"] == 0:
+            # 遍历完毕
+            break
+
+# to do
+def get_albums(author_id: str, list: bool):
     params = {
         'album_id': album_id,
         'lastRank': 0,
@@ -110,4 +132,4 @@ if __name__ == '__main__':
     parser.add_argument("--list", action="store_true", help="仅列出，不下载")
     args = parser.parse_args()
     cookies["auth_token"] = '2e1bffb38843f7cc45cc355b918f9110_20230522153958; _gid=GA1.2.1182776355.1686896249; _gat_gtag_UA_116694640_1=1; _ga=GA1.1.1563758643.1684741101; _ga_6STWKR7T9E=GS1.1.1686896249.3.1.1686896256.53.0.0'
-    get_all_albums(args.id, args.list)
+    get_articles(args.id, args.list)
