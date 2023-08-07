@@ -7,10 +7,9 @@ from time import sleep
 from csv import DictWriter
 import logging
 
-
 dpath = './level/'
-# tid = '44758719-2664-4c1c-89fb-e35cb72b2493'
-tname = 'xvimagistral'
+# tid = '7cedfbb9-ae3b-4d0c-b448-80477f87224c'
+tname = 'fics9906'
 dt = dpath+tname
 logging.basicConfig(filename=dt+'.log', level=logging.INFO)
 glist = dt+"_l.txt"
@@ -18,7 +17,7 @@ pl = {}
 level = {}
 
 headers = {
-	"Cookie": 'pvc_visits[0]=1690291503b6218; _gcl_au=1.1.2014855022.1690205104; _ga=GA1.1.884072037.1690205105; _ga_JF2WP22T0B=GS1.1.1690205104.1.0.1690205117.47.0.0; sid=s%3A7sFKIQrN9-d9ieZNGIbbXet4ndl_Qg61.Ug4SL%2BOMbI5DxTtIUdpGLZnc9A0IQdNYhB0nWuquprg; _ga_MJ3R6B59N3=GS1.1.1690205118.1.1.1690206091.0.0.0'
+	"Cookie": ''
 }
 
 def parseP(l):
@@ -207,5 +206,5 @@ if __name__ == '__main__':
 
 	# getL(readList(glist))
 
-	genP([12,14,16,18],"NO") #yes for fics, no for master
+	genP([12,14,16],"YES") #yes for fics, no for master
 	print("Finish")
