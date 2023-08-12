@@ -8,8 +8,8 @@ from csv import DictWriter
 import logging
 
 dpath = './level/'
-# tid = '7cedfbb9-ae3b-4d0c-b448-80477f87224c'
-tname = 'fics9906'
+tid = '44758719-2664-4c1c-89fb-e35cb72b2493'
+tname = 'xvimagistral'
 dt = dpath+tname
 logging.basicConfig(filename=dt+'.log', level=logging.INFO)
 glist = dt+"_l.txt"
@@ -17,7 +17,7 @@ pl = {}
 level = {}
 
 headers = {
-	"Cookie": ''
+	"Cookie": 'pvc_visits[0]=1690291503b6218; _gcl_au=1.1.2014855022.1690205104; _ga=GA1.1.884072037.1690205105; _ga_JF2WP22T0B=GS1.1.1690205104.1.0.1690205117.47.0.0; sid=s%3A7sFKIQrN9-d9ieZNGIbbXet4ndl_Qg61.Ug4SL%2BOMbI5DxTtIUdpGLZnc9A0IQdNYhB0nWuquprg; _ga_MJ3R6B59N3=GS1.1.1690205118.1.1.1690206091.0.0.0'
 }
 
 def parseP(l):
@@ -33,8 +33,8 @@ def parseP(l):
 			logging.info('0 move: '+game['whitePlayerFirstName']+' '+game['whitePlayerLastName']
 				+' vs '+game['blackPlayerFirstName']+' '+game['blackPlayerLastName'])
 			continue
-		if game['whiteAnalyzedMoves'] + game['blackAnalyzedMoves'] < 8:
-			logging.info('<=7 moves: '+game['whitePlayerFirstName']+' '+game['whitePlayerLastName']
+		if game['whiteAnalyzedMoves'] + game['blackAnalyzedMoves'] < 16:
+			logging.info('<16 moves: '+game['whitePlayerFirstName']+' '+game['whitePlayerLastName']
 				+' vs '+game['blackPlayerFirstName']+' '+game['blackPlayerLastName'])
 			continue
 		gl.append(gid)
@@ -117,8 +117,7 @@ def getG(gid):
 					'cpl': i['whiteCpl'],
 					'mm': i['whiteMm'] 
 				}
-			print(gid)
-		print(r.status_code)
+		# print(r.status_code)
 	except RequestException as err:
 		print(err)
 		print("Fail")
@@ -145,7 +144,7 @@ def getL(l):
 		json.dump(level, out)
 	out.close()
 
-def genP(al,flag):
+def genP():
 	with open(dt+'.json', 'r') as f:
 		pl = json.load(f)
 	with open(dt+'_g.json', 'r') as f:
@@ -154,26 +153,21 @@ def genP(al,flag):
 	fp = []
 	for pid in pl:
 		player = pl[pid]
-		for i in al:
-			n = len(player['games'])
-			if len(gdata[pid][str(i)]) < n:
-				if flag == "NO":
-					logging.info("NO "+player['name']+" "+str(i))
+		for i in [12,14,16,18]:
+			# print(player['name']+" "+str(i)+" "+str(len(gdata[pid][str(i)])))
+			n = len(gdata[pid][str(i)])
+			if n == 0:
 				continue
-			if flag == "YES":
-				if i == 16 or i == 18:
-					logging.info("YES "+player['name']+" "+str(i))
+			if n < len(player['games']):
+				logging.info("LESS "+player['name']+" "+str(i)+" "+str(n)+"<"+str(len(player['games'])))
+			move = 0
 			cpl = 0
 			mm = 0
-			for j in player['games']:
-				if j not in gdata[pid][str(i)]: 
-					if j not in gdata[pid][str(i+2)]:
-						tmp = gdata[pid][str(i+4)][j]
-					else:
-						tmp = gdata[pid][str(i+2)][j]
-				else:
-					tmp = gdata[pid][str(i)][j]
-				w = tmp['moves']/player['sum']
+			for j in gdata[pid][str(i)]:
+				move += gdata[pid][str(i)][j]['moves']
+			for j in gdata[pid][str(i)]:
+				tmp = gdata[pid][str(i)][j]
+				w = tmp['moves']/move
 				cpl += float(tmp['cpl'])*w
 				mm += float(tmp['mm'])*w
 			match i:
@@ -189,8 +183,8 @@ def genP(al,flag):
 				'Name': player['name'],
 				"Rating": player['rating'],
 				"Games": n,
-				"Result": player['result'],
-				'Moves': player['sum'],
+				# "Result": player['result'],
+				'Moves': move,
 				'CPL': round(cpl),
 				'MM': round(mm),
 				'Sort Score': round(mm)-round(cpl),
@@ -202,9 +196,9 @@ def genP(al,flag):
 		writer.writerows(fp)
 	
 if __name__ == '__main__':
-	# getT(tid)
+	getT(tid)
 
-	# getL(readList(glist))
+	getL(readList(glist))
 
-	genP([12,14,16],"YES") #yes for fics, no for master
+	genP()
 	print("Finish")
